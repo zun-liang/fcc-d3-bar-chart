@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #708090;
+}
+
+svg {
+  display: block;
+  background-color: #ffffff;
+  margin: 100px auto;
+  box-shadow: 2px 2px 20px black;
+}
