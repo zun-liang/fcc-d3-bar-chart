@@ -39,10 +39,10 @@ fetch(
       .range([height - margin.bottom, margin.top]);
 
     const svg = d3
-      .select("body")
+      .select("div#app")
       .append("svg")
-      .attr("width", width)
-      .attr("height", height);
+      .attr("viewBox", `0 0 ${width} ${height}`)
+      .classed("svg-content", true);
 
     svg
       .append("text")
