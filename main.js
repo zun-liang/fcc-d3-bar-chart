@@ -15,17 +15,7 @@ fetch(
     const tooltip = d3
       .select("body")
       .append("div")
-      .attr("id", "tooltip")
-      .attr("width", "40px")
-      .attr("height", "20px")
-      .style("position", "absolute")
-      .style("display", "none")
-      .style("background-color", "rgba(255, 255, 255, 0.8)")
-      .style("color", "black")
-      .style("padding", "10px")
-      .style("border-radius", "5px")
-      .style("box-shadow", "2px 2px 5px black")
-      .style("text-align", "center");
+      .attr("id", "tooltip");
 
     const xScale = d3
       .scaleTime()
