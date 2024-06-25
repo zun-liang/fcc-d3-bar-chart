@@ -69,7 +69,7 @@ fetch(
       .attr("data-gdp", (d, i) => d[1])
       .attr("width", (width - margin.left - margin.right) / gdpData.length - 1)
       .attr("height", (d) => height - margin.bottom - yScale(d[1]))
-      .attr("fill", "brown")
+      .attr("fill", "steelblue")
       .on("mouseover", (event, d) => {
         d3.select(event.currentTarget).style("fill", "white");
         tooltip
@@ -90,7 +90,7 @@ fetch(
           .style("bottom", "250px");
       })
       .on("mouseout", (event, d) => {
-        d3.select(event.currentTarget).style("fill", "brown");
+        d3.select(event.currentTarget).style("fill", "steelblue");
         tooltip.style("display", "none");
       });
 
