@@ -29,7 +29,7 @@ Users should be able to:
 <table>
   <tr>
     <td>
-      <img src="./public/screenshots/screenshot-desktop-default.png" alt="screenshot desktop default" style="width: 300px" />
+      <img src="./public/screenshots/screenshot-desktop.png" alt="screenshot desktop default" style="width: 300px" />
     </td>
   </tr>
 </table>
